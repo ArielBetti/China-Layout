@@ -1,0 +1,136 @@
+.china-shop {
+  height: 400px;
+}
+
+.section {
+  position: absolute;
+  top: 0;
+  z-index: 0;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.section h1 {
+  text-align: center;
+  font-size: 2.25em;
+  z-index: 1;
+  font-weight: bold;
+  color: #ff0000;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.color-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  width: 100%;
+  height: 100vh;
+  opacity: 0.8;
+}
+
+.rs { 
+  width: 100%;
+  height: 200%;
+}
+
+.navigation-loja {
+  z-index: 1;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 95%;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.navigation-loja > .menuloja {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation-loja > .menuloja > .menuitem {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+.navigation-loja > .logoloja > .logo {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+.navigation-loja > .menuloja > .menuitem:hover {
+  color: #ff0000;
+}
+
+.navigation-loja > .logoloja > .logo:hover {
+  color: #ff0000;
+}
+
+.navigation-loja > .menuloja > .selectregion {
+  border: none;
+}
+
+.navigation-loja > .menuloja > .selectregion img {
+  height: 20px;
+  width: 20px;
+}
+
+.navigation-loja > .menuloja > .selectregion {
+  border: 2px solid #fff;
+  padding: 5px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation-loja > .menuloja > .selectregion > .region {
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  -webkit-appearance: none;
+  cursor: pointer;
+}
+
+.navigation-loja > .menuloja > .selectregion > .region:hover {
+  color: #ff0000;
+}
+
+@media(max-width: 720px) {
+  .rs {
+    width: 150%;
+  }
+}
+@media(max-width: 480px) {
+  .rs {
+    width: 235%;
+  }
+}

@@ -1,0 +1,45 @@
+.footer-loja {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #111111;
+	padding: 20px;
+	text-align: center;
+}
+
+.footer-loja > .sobre-loja {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+}
+
+.footer-loja > .sobre-loja > .footer-sobre  {
+	max-width: 300px;
+	color: #fff;
+	padding: 10px;
+}
+
+.logo-footer {
+	font-size: 2.25em;
+	color: #ff0000;
+}
+
+.dev-loja {
+	font-size: 1.25em;
+	padding-top: 50px; 
+}
+
+.dev-loja > .dev-span {
+	color: #fff;
+}
+
+.dev-loja > .git-credito {
+	color: #fff;
+	text-decoration: none;
+}
+
+.dev-loja > .git-credito:hover {
+	color: #ff0000;
+}
