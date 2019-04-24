@@ -93,6 +93,11 @@
   color: #ff0000;
 }
 
+
+.navigation-loja > .menuloja > .region {
+  padding-left: 5px;
+}
+
 .navigation-loja > .menuloja > .selectregion {
   border: none;
 }
@@ -118,10 +123,18 @@
   font-weight: bold;
   -webkit-appearance: none;
   cursor: pointer;
+  padding-left: 5px;
 }
 
 .navigation-loja > .menuloja > .selectregion > .region:hover {
   color: #ff0000;
+}
+
+.regionoption {
+  background-color: #000;
+  font-weight: bold;
+  border: none;
+  text-align: center;
 }
 
 @media(max-width: 720px) {
